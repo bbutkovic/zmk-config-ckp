@@ -37,3 +37,6 @@ CONFIG_PWM=y
 CONFIG_LED_PWM=y
 CONFIG_ZMK_BACKLIGHT=y
 CONFIG_BUILD_OUTPUT_UF2=y
+
+# fix bluetooth pairing under Linux (https://github.com/zmkfirmware/zmk/issues/1487#issuecomment-2329577272)
+CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y
